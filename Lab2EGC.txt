@@ -1,0 +1,32 @@
+Laborator 2 
+Realizat de Ciobanu Dragos-Alexandru
+
+
+1.	Ce este un viewport?
+Un viewport este o regiune rectangulara a ferestrei de afisare in care se deseneaza scene sau obiecte 3D.
+
+2.	Ce reprezinta conceptul de frames per seconds din punctul de vedere al bibliotecii OpenGL?
+Conceptul de "frames per second" (FPS) in contextul bibliotecii OpenGL se refera la numarul de cadre (imagini) individuale desenate si afisate pe ecran intr-o secunda.
+
+3.	Cand este rulata metoda OnUpdateFrame()?
+Metoda OnUpdateFrame() este rulata in cadrul unui ciclu principal al jocului sau al aplicatiei grafice atunci cand un cadru (frame) nou este actualizat.
+
+4.	Ce este modul imediat de randare?
+Modul imediat de randare este o tehnica de randare in grafica computerizata.
+
+5.	Care este ultima versiune de OpenGL care accepta modul imediat?
+Ultima versiune a OpenGL care a oferit suport pentru modul imediat a fost OpenGL 2.1.
+
+6.	Cand este rulata metoda OnRenderFrame()?
+Metoda OnRenderFrame() este rulata in cadrul unui ciclu principal al jocului sau al aplicatiei grafice atunci cand este necesara actualizarea si desenarea imaginii pe ecran.
+
+7.	 De ce este nevoie ca metoda OnResize() sa fie executata cel putin o data?
+Este important ca aceasta metoda sa fie executata cel putin o data pentru urmatoarele motive:
+-	Initializarea Starii Initiale;
+-	Actualizarea Starii dupa Redimensionare;
+-	Alocarea Resurselor Grafice.
+
+8.	Ce reprezinta parametrii metodei CreatePerspectiveFieldOfView() si care este domeniul de valori pentru acestia?
+Metoda CreatePerspectiveFieldOfView() face parte din majoritatea bibliotecilor grafice si este utilizata pentru a crea o matrice de proiectie perspectiva. Aceasta contine urmatorul domeniu de valori: fieldOfView, aspectRatio, zNear si zFar.
+
+
