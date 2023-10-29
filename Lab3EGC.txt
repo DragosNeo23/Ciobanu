@@ -1,0 +1,9 @@
+1. Ce este anti-aliasing? Prezentati aceasta tehnica pe scurt.
+Anti-aliasing este o tehnica utilizata in grafica computerizata pentru a reduce sau elimina efectul de pixelizare (aliasing) care apare atunci cand linii drepte sau curbe sunt reprezentate pe un ecran cu rezolutie finita, in special atunci cand sunt inclinate sau au margini neregulate.
+
+2. Ce reprezinta un gradient de culoare? Cum se obtine acesta in OpenGL?
+Un gradient de culoare reprezinta o tranzitie treptata intre doua sau mai multe culori intr-o imagine sau pe o suprafata.
+In OpenGL, un gradient de culoare poate fi obtinut folosind combinatii de culori ?i texturi. 
+
+3. Ce efect are utilizarea unei culori diferite pentru fiecare vertex atunci cand desenati o linie sau un triunghi in modul strip?
+Efectul este acesta ca fiecare culoare de la varfuri sunt interpolate pe toata suprafata liniei sau a triunghiului. 
